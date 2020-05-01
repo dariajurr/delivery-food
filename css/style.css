@@ -78,9 +78,7 @@ body {
   margin-right: 6px;
   
 }
-.button-text {
 
-}
 
 .slider {
   border-radius: 10px;
@@ -460,7 +458,9 @@ footer {
   line-height: 23px;
   color: #FAFAFA;
 }
-
+.restaurant-image {
+  width: 100%;
+}
 
 @media (max-width: 1366px) {
   .container {
@@ -503,8 +503,9 @@ footer {
     max-width: 31%;
     align-items: center;
   }
- .footer-links:not(:last-child) {
-   margin: 0;
+  .footer-links:not(:last-child) {
+    margin: 0;
+  }
 }
   
 
@@ -568,15 +569,13 @@ footer {
   }
   .restaurant img:first-child {
     width: 100%;
-  }
- 
-    
+  }    
 }
 
 @media (max-width: 490px) { 
   .container-footer {
     flex-direction: column;
-   align-items: center;
+    align-items: center;
   }
   .container-footer .logo {
   margin: 15px 0;
@@ -592,8 +591,8 @@ footer {
     margin-top: 15px;
   }
   .slider {
-     padding: 20px;
-   }
+    padding: 20px;
+  }
   .button-text {
     display: none;       
   }
